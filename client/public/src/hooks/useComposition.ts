@@ -4,7 +4,7 @@ import { usePersistFn } from "./usePersistFn";
 export interface UseCompositionReturn<
   T extends HTMLInputElement | HTMLTextAreaElement,
 > {
-  onCompositionStart: React.CompositionEventHandler<T>;
+  onCompositionStart: react.CompositionEventHandler<T>;
   onCompositionEnd: React.CompositionEventHandler<T>;
   onKeyDown: React.KeyboardEventHandler<T>;
   isComposing: () => boolean;
